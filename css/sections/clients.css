@@ -216,7 +216,17 @@
     padding: 17px;
   }
   .client-law {
-    padding: 10px;
+    background: #ffffff; 
+    padding: 14px;
+  }
+  .client-innovate {
+    background: #ffffff; 
+    padding: 16px;
+  }
+
+  .client-spaco {
+    background: #074582;
+    padding: 10px; 
   }
   .client-lu {
     padding: 0;
@@ -224,14 +234,9 @@
   .client-dental {
     padding: 10px;
   }
-  .client-innovate {
-    padding: 9px;
-  }
+  
   .client-nexus {
     padding: 17px 24px;
-  }
-  .client-spaco {
-    padding: 13px 21px;
   }
   .ciop-name {
     font-size: 31px;
