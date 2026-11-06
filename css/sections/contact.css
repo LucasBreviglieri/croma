@@ -1,0 +1,100 @@
+/* Contact Section */
+.contact-section { 
+  background: var(--yellow); 
+  color: var(--ink); 
+  padding-block: 93px 100px; 
+  position: relative; 
+  overflow: hidden; 
+}
+.contact-symbol { 
+  position: absolute; 
+  right: -300px; 
+  bottom: -400px; 
+  width: 840px; 
+  max-width: none; 
+  opacity: .06; 
+  pointer-events: none; 
+}
+.contact-grid { 
+  display: grid; 
+  grid-template-columns: 1.2fr 1fr; 
+  gap: 100px; 
+  align-items: end; 
+  position: relative; 
+}
+.contact-section .section-stroke { 
+  background: var(--ink); 
+}
+.contact-section .eyebrow { 
+  font-size: 10px; 
+}
+.contact-section h2 { 
+  font-size: clamp(40px, 4.3vw, 62px); 
+  line-height: 1.05; 
+  max-width: 640px; 
+}
+.contact-section h2 > span { 
+  position: relative; 
+  display: inline-block; 
+}
+
+.contact-section h2 > span::after { 
+  content: ''; 
+  position: absolute; 
+  top: 50%; 
+  left: -2%; 
+  height: 4px; 
+  background: var(--ink); 
+  transform: translateY(-50%) rotate(-2deg); 
+  width: 0; 
+  transition: width 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.5s; 
+  border-radius: 4px;
+}
+.reveal.is-visible h2 > span::after {
+  width: 104%;
+}
+
+.contact-copy > p { 
+  font-size: 15px; 
+  line-height: 1.8; 
+  max-width: 440px; 
+  margin-bottom: 27px; 
+}
+.contact-copy .button { 
+  gap: 20px; 
+  justify-content: space-between; 
+  width: 100%; 
+  max-width: 440px; 
+}
+.contact-arrow { 
+  display: block; 
+  font: 400 69px/1 var(--body); 
+  margin-bottom: 23px; 
+}
+
+@media (max-width: 1199px) {
+  .contact-grid { gap: 55px; }
+}
+@media (max-width: 940px) {
+  .contact-grid { gap: 40px; }
+  .contact-section h2 { font-size: 42px; }
+  .contact-copy > p { font-size: 13px; }
+  .contact-copy .button { font-size: 10px; padding-inline: 18px; }
+  .contact-arrow { font-size: 52px; }
+}
+@media (max-width: 680px) {
+  .contact-section { padding-block: 63px 69px; }
+  .contact-grid { grid-template-columns: 1fr; gap: 30px; }
+  .contact-section h2 { font-size: clamp(35px, 9.1vw, 49px); line-height: 1.1; max-width: 550px; }
+  .contact-section .eyebrow { font-size: 8px; gap: 9px; letter-spacing: .08em; }
+  .contact-copy > p { font-size: 13px; max-width: 480px; line-height: 1.9; margin-bottom: 23px; }
+  .contact-arrow { display: none; }
+  .contact-copy .button { font-size: 10px; min-height: 54px; padding-inline: 19px; gap: 15px; max-width: 440px; }
+  .contact-symbol { width: 650px; right: -330px; bottom: -330px; }
+}
+@media (max-width: 370px) {
+  .contact-copy .button { font-size: 9px; padding-inline: 15px; gap: 8px; }
+}
+@media print {
+  .contact-section { break-inside: avoid; }
+}
