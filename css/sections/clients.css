@@ -1,0 +1,61 @@
+/* Clients */
+.clients-intro { font-size: 14px; color: #696960; max-width: 300px; line-height: 1.85; margin-bottom: 3px; }
+.clients-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+.client-card { min-width: 0; height: 143px; border: 1px solid #deded5; border-radius: 8px; display: flex; align-items: center; justify-content: center; padding: 22px; overflow: hidden; transition: transform .3s, box-shadow .3s; }
+.client-card:hover { transform: translateY(-4px); box-shadow: 0 8px 18px #2222220b; }
+.client-card img { width: 100%; height: 100%; object-fit: contain; }
+
+.client-panobianco { background: #fff; padding: 10px; }
+.client-clube { background: #faf8f7; }
+.client-law { background: #073750; padding: 14px; }
+.client-ciop { background: #fff; flex-direction: column; color: #222; line-height: 1.1; }
+.ciop-name { font-size: 35px; font-weight: 750; letter-spacing: -.04em; }
+.ciop-sub { font-size: 10px; letter-spacing: .15em; text-transform: uppercase; margin-top: 7px; }
+.client-bridge { background: #c8c8c8; padding: 19px 27px; }
+.client-lu { background: #bd0925; padding: 0; }
+.client-lu img { object-fit: cover; }
+.client-dental { background: #0d1014; padding: 13px; }
+.client-innovate { background: #001c32; padding: 16px; }
+.client-nexus { background: #c2c2c2; padding: 18px 34px; }
+.client-spaco { background: #074582; padding: 15px 30px; }
+
+.clients-endnote { margin-top: 35px; display: flex; align-items: center; gap: 11px; color: #68685f; font-size: 11px; }
+.clients-endnote .tiny-dot { background: var(--ink); width: 5px; height: 5px; flex-basis: 5px; }
+.clients-endnote > a { margin-left: auto; display: grid; place-items: center; width: 32px; height: 32px; border: 1px solid var(--line-light); border-radius: 50%; }
+.clients-endnote .icon { width: 17px; height: 17px; }
+
+@media (max-width: 1199px) {
+  .client-card { height: 127px; padding: 17px; }
+  .client-law, .client-innovate { padding: 12px; }
+  .client-lu { padding: 0; }
+  .client-dental { padding: 10px; }
+}
+@media (max-width: 940px) {
+  .clients-grid { grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .client-card { height: 135px; }
+  .clients-intro { font-size: 12px; max-width: 230px; }
+}
+@media (max-width: 680px) {
+  .clients-intro { font-size: 13px; max-width: 420px; margin-top: 23px; }
+  .clients-grid { grid-template-columns: repeat(2, 1fr); gap: 11px; }
+  .client-card { height: 115px; padding: 17px; }
+  .client-law { padding: 10px; }
+  .client-lu { padding: 0; }
+  .client-dental { padding: 10px; }
+  .client-innovate { padding: 9px; }
+  .client-nexus { padding: 17px 24px; }
+  .client-spaco { padding: 13px 21px; }
+  .ciop-name { font-size: 31px; }
+  .ciop-sub { font-size: 9px; }
+  .clients-endnote { font-size: 9px; margin-top: 26px; gap: 8px; }
+  .clients-endnote > a { width: 28px; height: 28px; }
+}
+@media (max-width: 370px) {
+  .client-card { height: 101px; padding: 12px; }
+  .client-law, .client-innovate { padding: 8px; }
+  .client-lu { padding: 0; }
+  .client-dental { padding: 8px; }
+}
+@media print {
+  .client-card { break-inside: avoid; }
+}

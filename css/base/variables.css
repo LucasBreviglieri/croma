@@ -1,0 +1,27 @@
+/* Configuração da Fonte Azedo local */
+@font-face {
+  font-family: 'Azedo';
+  src: url('../../fonts/Azedo-Bold.otf') format('opentype');
+  font-weight: 700 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Azedo';
+  src: url('../../fonts/Azedo-Light.otf') format('opentype');
+  font-weight: 300 400;
+  font-display: swap;
+}
+
+:root {
+  --ink: #222222;
+  --yellow: #FFDE00;
+  --paper: #f8f8f4;
+  --muted: #b7b7b2;
+  --line-dark: #44443e;
+  --line-light: #dcdcd4;
+  --body: 'Montserrat', Arial, sans-serif;
+  --display: 'Azedo', 'Montserrat', Arial, sans-serif;
+  --shell: 1280px;
+  --ease: cubic-bezier(.22, 1, .36, 1);
+}
