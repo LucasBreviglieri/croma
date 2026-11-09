@@ -123,14 +123,14 @@
   isolation: isolate;
 }
 
-/* Espiral Gigante */
+
 .hero-symbol {
   position: absolute;
   max-width: none;
-  width: 950px; 
-  height: 950px; 
-  top: -220px; 
-  right: -280px; 
+  width: 1100px;
+  height: 1100px;
+  top: -390px;
+  right: -430px;
   object-fit: contain;
   transform: rotate(-23deg);
   opacity: 1;
@@ -160,15 +160,14 @@
   left: 119px;
 }
 
-/* Camaleão Maior e Avançando para a Esquerda */
 .chameleon {
-  position: absolute;
-  width: 740px; 
-  max-width: none;
-  right: 60px; 
-  bottom: -70px; 
-  filter: drop-shadow(-18px 16px 20px #0003);
-  transform-origin: bottom center;
+    position: absolute;
+    width: 850px;
+    max-width: none;
+    right: -147px;
+    bottom: -429px;
+    filter: drop-shadow(-18px 16px 20px #0003);
+    transform-origin: bottom center;
 }
 
 .art-note {
@@ -319,8 +318,8 @@
   .hero-description { font-size: 13px; max-width: 460px; margin-top: 22px; line-height: 1.85; }
   .hero-cta { margin-top: 25px; min-height: 52px; font-size: 11px; padding-inline: 22px; }
   .hero-art { height: 420px; min-height: 0; width: 100%; margin-top: 22px; position: relative; }
-  .chameleon { width: 420px; right: calc(50% - 210px); bottom: -20px; max-width: 115%; }
-  .hero-symbol { width: 550px; height: 550px; right: calc(50% - 400px); top: -30px; transform: rotate(-23deg); }
+  .chameleon { width: 550px;right: calc(50% - 210px);bottom: -100px;max-width: 159%; }
+  .hero-symbol {width: 800px;height: 800px;right: calc(55% - 530px);top: -121px;transform: rotate(-23deg);}
   .orbit { width: 340px; height: 340px; top: 45px; left: calc(50% - 170px); }
   .orbit::before { top: 17px; left: 100px; width: 7px; height: 7px; }
   .art-note { left: auto; right: 4px; top: 15px; font-size: 8px; padding: 9px 13px; transform: rotate(6deg); }

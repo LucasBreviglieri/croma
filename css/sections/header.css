@@ -1,4 +1,4 @@
-.site-header { position: sticky; top: 0; z-index: 999; background-color: var(--ink); border-bottom:1px solid var(--line-dark); }
+.site-header { position: fixed; top: 0; left: 0; width: 100%; z-index: 9999; background-color: var(--ink); border-bottom: 1px solid var(--line-dark);}
 .site-header.is-scrolled { border-color: #ffffff14; box-shadow: 0 5px 30px #0002; }
 .header-inner { height: 104px; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
 .brand { display: block; flex-shrink: 0; }
