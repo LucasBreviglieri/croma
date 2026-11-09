@@ -1,12 +1,6 @@
-/* =========================================
-   CROMA COMUNICAÇÃO - ESTILOS PRINCIPAIS
-   ========================================= */
-
-/* 1. Base */
 @import url('base/variables.css');
 @import url('base/reset.css');
 
-/* 2. Seções (Componentes) */
 @import url('sections/header.css');
 @import url('sections/hero.css');
 @import url('sections/about.css');

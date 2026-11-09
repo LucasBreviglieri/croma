@@ -1,7 +1,6 @@
 export function initScroll() {
   const header = document.getElementById('site-header');
   const navLinks = [...document.querySelectorAll('.nav-link')];
-  // Pega as sections dinâmicas que foram injetadas
   const sections = [...document.querySelectorAll('main section[id]')];
   
   let scrollScheduled = false;

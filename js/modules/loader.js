@@ -9,7 +9,6 @@ export async function loadComponents() {
     { id: 'layout-footer', url: 'layout/footer.html' }
   ];
 
-  // Carrega todos simultaneamente
   const promises = components.map(async (comp) => {
     try {
       const response = await fetch(comp.url);

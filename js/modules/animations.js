@@ -28,7 +28,6 @@ export function initAnimations() {
   
   applyMotionSetting();
 
-  // Intersection Observer (Animações de rolagem)
   if ('IntersectionObserver' in window && !motionPaused) {
     root.classList.add('js');
     const revealObserver = new IntersectionObserver(entries => {
