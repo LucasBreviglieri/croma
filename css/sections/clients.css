@@ -187,3 +187,23 @@
     break-inside: avoid;
   }
 }
+
+.client-card:nth-child(1) img {
+  transform: scale(1.6);
+}
+
+.client-card:nth-child(2) img,
+.client-card:nth-child(5) img,
+.client-card:nth-child(6) img,
+.client-card:nth-child(7) img,
+.client-card:nth-child(8) img,
+.client-card:nth-child(9) img,
+.client-card:nth-child(10) img {
+  transform: scale(1.25);
+}
+
+.client-card:nth-child(3) img,
+.client-card:nth-child(4) img,
+.client-card:nth-child(11) img {
+  transform: scale(1);
+}

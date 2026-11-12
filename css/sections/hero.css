@@ -330,9 +330,9 @@
 @media (max-width: 370px) {
   .hero-description { font-size: 12px; }
   .hero-art { height: 350px; }
-  .chameleon { width: 340px; right: calc(50% - 170px); }
-  .hero-symbol { width: 450px; height: 450px; right: calc(50% - 350px); top: -20px; }
-  .art-note { top: 35px; }
+  .chameleon { width: 530px; top: -115px; right: -104px;}
+  .hero-symbol { width: 730px; height: 730px; right: -300px; top: -140px; }
+  .art-note { top: 3px; right: -20px; }
   .hero-bottom { font-size: 7px; }
   .hero-bottom > a { font-size: 8px; }
 }
