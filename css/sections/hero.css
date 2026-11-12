@@ -316,11 +316,11 @@
   .hero-description { font-size: 13px; max-width: 460px; margin-top: 22px; line-height: 1.85; }
   .hero-cta { margin-top: 25px; min-height: 52px; font-size: 11px; padding-inline: 22px; }
   .hero-art { height: 420px; min-height: 0; width: 100%; margin-top: 22px; position: relative; }
-  .chameleon { width: 700px; right: -152px; bottom: -300px; max-width: 159%; }
-  .hero-symbol { width: 820px; height: 820px; right: calc(55% - 551px); top: -200px;transform: rotate(-23deg);}
+  .chameleon { width: 652px; right: -152px; bottom: -337px; /* max-width: 159%; */ }
+  .hero-symbol { width: 760px; height: 820px; right: calc(55% - 490px); top: -174px; transform: rotate(-23deg); }
   .orbit { width: 340px; height: 340px; top: 45px; left: calc(50% - 170px); }
   .orbit::before { top: 17px; left: 100px; width: 7px; height: 7px; }
-  .art-note { left: auto; right: 4px; top: 15px; font-size: 8px; padding: 9px 13px; transform: rotate(6deg); }
+  .art-note { left: auto; right: 26px; top: 15px; font-size: 8px; padding: 9px 13px; transform: rotate(6deg); }
   .art-caption { display: block; font-size: 8px; left: 0; bottom: 44px; line-height: 1.5; }
   .hero-bottom { padding-block: 17px; font-size: 8px; gap: 15px; }
   .hero-bottom > a { font-size: 9px; gap: 9px; white-space: nowrap; }
