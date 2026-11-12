@@ -32,14 +32,14 @@ export function initCarousel() {
   if (nextBtn) {
     nextBtn.addEventListener('click', () => {
       const cardWidth = cards[0].offsetWidth;
-      grid.scrollBy({ left: cardWidth * 2, behavior: 'smooth' });
+      grid.scrollBy({ left: cardWidth, behavior: 'smooth' });
     });
   }
 
   if (prevBtn) {
     prevBtn.addEventListener('click', () => {
       const cardWidth = cards[0].offsetWidth;
-      grid.scrollBy({ left: -cardWidth * 2, behavior: 'smooth' });
+      grid.scrollBy({ left: -cardWidth, behavior: 'smooth' });
     });
   }
 
