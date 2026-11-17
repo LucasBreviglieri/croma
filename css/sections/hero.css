@@ -281,8 +281,8 @@
   .hero-last { font-size: 5.6vw; }
   .hero-description { max-width: 440px; font-size: 14px; }
   .hero-art { min-height: 490px; }
-  .chameleon { width: 580px; right: 20px; bottom: -60px; }
-  .hero-symbol { width: 750px; height: 750px; right: -200px; top: -150px; }
+  .chameleon { width: 700px;right: 20px; bottom: -315px; left: -175px; }
+  .hero-symbol { width: 1000px; height: 1000px; right: -431px; top: -300px; }
   .art-note { right: -15px; top: 10px; }
   .art-caption { left: 8px; bottom: 22px; }
 }
@@ -296,8 +296,8 @@
   .hero-subtitle { font-size: 17px; max-width: 390px; }
   .hero-description { font-size: 13px; max-width: 360px; }
   .hero-art { min-height: 460px; }
-  .chameleon { width: 480px; right: 0px; bottom: -50px; }
-  .hero-symbol { width: 620px; height: 620px; right: -150px; top: -100px; }
+  .chameleon { width: 650px; right: 0px; bottom: -350px; }
+  .hero-symbol { width: 820px; height: 820px; right: -375px; top: -186px; }
   .orbit { width: 420px; height: 420px; top: 80px; left: -20px; }
   .art-caption { display: none; }
   .art-note { font-size: 8px; padding: 10px 12px; right: 0; top: 0; }
@@ -330,8 +330,8 @@
 @media (max-width: 370px) {
   .hero-description { font-size: 12px; }
   .hero-art { height: 350px; }
-  .chameleon { width: 530px; top: -115px; right: -104px;}
-  .hero-symbol { width: 730px; height: 730px; right: -300px; top: -140px; }
+  .chameleon { width: 550px; top: -110px; right: -104px; left: -114px; }
+  .hero-symbol { width: 600px; height: 600px; right: -260px; top: -140px; }
   .art-note { top: 3px; right: -20px; }
   .hero-bottom { font-size: 7px; }
   .hero-bottom > a { font-size: 8px; }
